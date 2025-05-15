@@ -1,10 +1,10 @@
 # Ingesting Wellbore related data into Azure Data Manager for Energy Data (ADME)
 
-This codebase is made to help accelerate anyone who wants to ingest Wellbore and all the corresponding dependencies into ADME using a simple Jupyter notebook. Focus here is to ingest a curated and prepared New Zealand dataset that is ready for ingestion.
+This codebase is made to help accelerate anyone who wants to ingest Wellbore and all the corresponding dependencies into ADME using a simple Jupyter notebook. In this example, we have used a curated and prepared New Zealand dataset that is ready for ingestion.
 
 ## Description
 
-Add content here - The code in this notebook:
+The code in this notebook will do the following:
 
 - Connects securely to your [Microsoft Azure Data Manager for Energy](https://learn.microsoft.com/en-us/azure/energy-data-services/) environment using Service Principal authentication
 - Ingests the required **reference data** (Basin, Field, GeopoliticalEntity, Organisation, etc.)
